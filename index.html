@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   </head>
   <body>
     <div class="container">
@@ -34,9 +35,12 @@
           </p>
           <span class="hero__premier">Премьера</span>
           <span class="hero__date">19 декабря 2019</span>
-          <button class="button-play hero__button-play">
+          <a href="https://www.youtube.com/watch?v=67E4F60YPqs" data-fancybox
+            class="button-play hero__button-play"
+            data-target="https://www.youtube.com/watch?v=67E4F60YPqs"
+          >
             Смотреть трейлер
-          </button>
+        </a>
         </div>
         <div class="episodes">
           <h2 class="episodes__title">Предыдущие эпизоды</h2>
@@ -47,6 +51,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle1.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">1980</div>
@@ -57,6 +62,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle2.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">1983</div>
@@ -67,6 +73,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle3.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">1999</div>
@@ -77,6 +84,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle4.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">2002</div>
@@ -84,6 +92,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle1.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">2005</div>
@@ -94,6 +103,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle2.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">2015</div>
@@ -104,6 +114,7 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle3.png" alt="" class="slider__image" />
             </div>
             <div class="slider__item">
               <div class="slider__year">2017</div>
@@ -114,10 +125,13 @@
               <div class="slider__rating">
                 <span class="slider__rating-label">Рейтинг</span>
               </div>
+              <img src="img/Rectangle4.png" alt="" class="slider__image" />
             </div>
           </div>
         </div>
       </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
